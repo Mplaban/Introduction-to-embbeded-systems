@@ -41,3 +41,35 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+unsigned char print_statistics(char *a,int n)
+{
+
+}
+unsigned char print_array(char *a,int n)
+{
+
+}
+unsigned char find_median(char *a,int n)
+{
+
+}
+
+unsigned char find_mean(char *a,int n)
+{
+
+}
+
+unsigned char find_maximum(char *a,int n)
+{
+
+}
+
+unsigned char find_minimum(char *a,int n)
+{
+
+}
+
+unsigned char sort_array(char *a,int n)
+{
+
+}
