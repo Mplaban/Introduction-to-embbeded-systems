@@ -26,7 +26,7 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
-void main() {
+int main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
                               114, 88,   45,  76, 123,  87,  25,  23,
@@ -53,7 +53,7 @@ void print_statistics(char *a,int n)
 	printf("The median number of array = %d\n",medain);
 	printf("The mean number of array = %d\n",mean);
 }
-void print_array(char *a)
+void print_array(char *a,int n)
 {
 	for(int i=0;i<n;i++)
 	{

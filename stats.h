@@ -44,7 +44,7 @@ void print_statistics(char *a,int n);
  *
  * @return void
  */
-void print_array(char *a);
+void print_array(char *a,int n);
 
 /**
  * @brief find_median
