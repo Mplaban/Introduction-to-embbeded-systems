@@ -30,9 +30,9 @@
  * @param *a  A unsigned char pointer to an n-element data array
  * @param n An unsigned integer as the size of the array
  *
- * @return An unsigned char result from the function
+ * @return void
  */
-unsigned char print_statistics(char *a,int n);
+void print_statistics(char *a,int n);
 
 /**
  * @brief print_array
@@ -42,9 +42,9 @@ unsigned char print_statistics(char *a,int n);
  * @param *a  A unsigned char pointer to an n-element data array
  * @param n An unsigned integer as the size of the array
  *
- * @return An unsigned char result from the function
+ * @return void
  */
-unsigned char print_array(char *a,int n);
+void print_array(char *a);
 
 /**
  * @brief find_median
@@ -99,9 +99,9 @@ unsigned char find_minimum(char *a,int n);
  * @param *a  A unsigned char pointer to an n-element data array
  * @param n An unsigned integer as the size of the array
  *
- * @return An unsigned char result from the function
+ * @return void
  */
-unsigned char sort_array(char *a,int n);
+void sort_array(char *a,int n);
 
 
 #endif /* __STATS_H__ */
